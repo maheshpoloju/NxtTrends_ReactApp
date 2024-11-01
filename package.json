@@ -7,6 +7,8 @@
     "npm": ">=6"
   },
   "dependencies": {
+    "@stripe/react-stripe-js": "2.8.1",
+    "@stripe/stripe-js": "4.9.0",
     "@testing-library/jest-dom": "5.11.9",
     "@testing-library/react": "11.2.5",
     "@testing-library/user-event": "12.6.2",
@@ -31,7 +33,7 @@
     "react-scripts": "4.0.3"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "react-scripts --openssl-legacy-provider start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "lint": "eslint .",
